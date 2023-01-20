@@ -1,4 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
+
 part 'article_model.g.dart';
 
 @JsonSerializable()
@@ -11,7 +12,7 @@ class ArticleModel {
 
   final int id;
 
-  @JsonKey(name: 'authorId')
+  @JsonKey(name: 'author_id')
   final int authorId;
 
   final String content;
